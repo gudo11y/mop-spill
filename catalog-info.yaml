@@ -1,0 +1,21 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mop-spill
+  description: managed observability platform - spill
+  labels:
+    example.com/custom: custom_label_value
+  annotations:
+    example.com/service-discovery: mop-spill
+  tags:
+    - golang
+  links:
+    - url: https://admin.example-org.com
+      title: Admin Dashboard
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: service
+  lifecycle: production
+  owner: gudo11y
+  system: mop
