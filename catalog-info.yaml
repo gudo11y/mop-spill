@@ -7,6 +7,9 @@ metadata:
     example.com/custom: custom_label_value
   annotations:
     example.com/service-discovery: mop-spill
+    backstage.io/kubernetes-id: teleport-sre
+    backstage.io/kubernetes-namespace: default
+    backstage.io/kubernetes-label-selector: 'app=teleport-sre'
   tags:
     - golang
   links:
